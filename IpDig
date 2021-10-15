@@ -1,0 +1,6 @@
+#!/bin/bash
+myip = $(ip r);
+dig -x myip;
+
+
+
